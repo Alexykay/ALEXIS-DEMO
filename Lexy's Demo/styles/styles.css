@@ -1,0 +1,26 @@
+h2 {
+    font-family: sans-serif;
+    font-weight: bold;
+}
+
+h3 {font-size: large;
+    display: flex;
+    flex-direction: row;
+    justify-content: right;   
+}
+
+h1 {
+    font-style: italic;
+}
+
+.nav-links {
+justify-content: space-around;
+}
+
+.nav {
+    justify-content: right;
+}
+
+.pet {
+    justify-content: space-between;
+}
