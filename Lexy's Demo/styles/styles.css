@@ -1,26 +1,23 @@
-h2 {
-    font-family: sans-serif;
-    font-weight: bold;
-}
+.social-links {
+    background-color: aquamarine;
+    height: 100px;
 
-h3 {font-size: large;
-    display: flex;
-    flex-direction: row;
-    justify-content: right;   
-}
-
-h1 {
-    font-style: italic;
-}
-
-.nav-links {
-justify-content: space-around;
-}
-
-.nav {
-    justify-content: right;
 }
 
 .pet {
     justify-content: space-between;
+}
+
+
+nav {display: flex;
+    flex-direction: row;
+    justify-content: right;
+    font-weight: bold;
+
+}
+
+.social-links {
+    display: flex;
+    flex-direction: row;
+    justify-content: right;
 }
