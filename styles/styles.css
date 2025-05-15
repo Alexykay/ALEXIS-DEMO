@@ -4,17 +4,12 @@
     box-sizing: border-box;
 }
 
-
-body {
-background-image:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url(../images/hassaanhere.jpg);
-
-    background-size: cover;
-
-}
 .nav {
     display: flex;
     flex-direction: row;
     background-color: rgba(255, 166, 0, 0.596);
+    height: 80px;
+    font-weight: bold;
     align-items: center;
     justify-content: space-evenly;
 }
@@ -52,8 +47,114 @@ h1 {
 
 .hero-text {
     font-size: 70px;
+    margin-top: 100px;
 }
 
 .button-text {
     border-radius: 20px ;
+    padding: 20px;
+    background-color: #F1856E;
+    margin-top: 100px;
+}
+
+.venn-contain {
+    position: relative;
+    width: 400px;
+    height: 300px;
+    /* margin: 50px auto; */
+}
+.circle {
+    position: absolute;
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    line-height: 200px;
+    text-align: center;
+    font-weight: bold;
+    opacity: 0.6;
+    color: white;
+}
+.circle-a {
+    background-color: #3498db;
+    left: 100px;
+    top: 0;
+}
+.circle-b {
+    background-color: #e74c3c;
+    left: 0;
+    top: 100px;
+}
+.circle-c {
+    background-color: #2ecc71;
+    left: 200px;
+    top: 100px;
+}
+
+.header {
+    background-image:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url(../images/hassaanhere.jpg);
+
+    background-size: cover;
+    height: 100vh;
+}
+
+.combi {
+    display: flex;
+    flex-direction: row;
+    /* height: 70px; */
+    align-items: center;
+    justify-content: center;
+    width: 70%;
+    margin: auto;
+    padding: 2rem;
+    background-color: peachpuff;
+    margin-bottom: 100px;
+
+}
+
+.text-n {
+    width: 50%;
+}
+
+.text-n sub {
+    font-size: x-large;
+    margin-top: 100px;
+}
+.text-o {
+    border-radius: 20px ;
+    padding: 20px;
+    background-color: #F1856E;
+    margin-top: 120px;
+}
+
+h2 {
+    text-align: center;
+    font-size: xxx-large;
+}
+
+.extra {
+    text-align: center;
+     font-size: larger;
+}
+.curriculum{
+    display: flex;
+    justify-content: space-around;
+    font-size: large;
+    color: black;
+
+    
+   
+}
+.curriculum a {
+    /* justify-content: space-around; */
+    text-decoration: none;
+    font-weight: 800;
+    /* color: rgb(33, 137, 151); */
+    margin-top: 50px;
+    
+}
+.illustrations {
+    align-content: center;
+}
+.three {
+    background-color: aquamarine;
 }
