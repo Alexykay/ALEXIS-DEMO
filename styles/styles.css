@@ -1,0 +1,59 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+
+
+body {
+background-image:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url(../images/hassaanhere.jpg);
+
+    background-size: cover;
+
+}
+.nav {
+    display: flex;
+    flex-direction: row;
+    background-color: rgba(255, 166, 0, 0.596);
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+ul {
+    display: flex;
+    flex-direction: row;
+    gap: 100px;
+    list-style-type: none;    
+}
+
+h1 {
+    color: white;
+    text-align: right;
+}
+
+.nav a {
+    text-decoration: none;
+    color: white;
+    font-size: 20px;    
+}
+.hero {
+    display: flex;
+    width: 90%;
+    margin: 0% auto;
+
+}
+
+.hero-sub {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.hero-text {
+    font-size: 70px;
+}
+
+.button-text {
+    border-radius: 20px ;
+}
